@@ -1,10 +1,41 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import Logo from '../../assets/img/logo.png'
 
 function Header1() {
   const [showHeaderArea, setShowHeaderArea] = useState(false)
   const [showCollapse, setShowCollapse] = useState(false)
+  const [scrollPosition, setScrollPosition] = useState(false);
+
+  const handleScroll = () => {
+    var elHeaderGnb = document.querySelector('.header-area__grid--menu');
+    
+    var offsetY = elHeaderGnb.getBoundingClientRect().top;
+
+    if (offsetY < 0) {
+      setScrollPosition(true);
+      return;
+    }
+    setScrollPosition(false);
+    // const position = window.pageYOffset;
+    // console.log(position);
+    // if (position > 200) {
+    //   setScrollPosition(true);
+    // } else {
+    //   setScrollPosition(false);
+    // }
+  };
+
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+
+  }, [])
+
 
   return (
     <>
@@ -64,7 +95,7 @@ function Header1() {
               </div>
             </div>
           </div>
-          <div className="header-area__grid header-area__grid--menu">
+          <div className={"header-area__grid header-area__grid--menu " + (scrollPosition ? 'sticky' : '')}>
             <div className="header-area__menu">
               <ul className="menu-list" onMouseEnter={() => setShowCollapse(true)} onMouseLeave={() => setShowCollapse(false)}>
                 <li className={"menu-list__category " + (showCollapse ? 'is-hover' : '')}>

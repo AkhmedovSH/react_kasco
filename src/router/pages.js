@@ -12,7 +12,10 @@ import Kas0852 from '../pages/kas-0852/kas-0852'
 import Kas0853 from '../pages/kas-0853/kas-0853'
 import Kas0854 from '../pages/kas-0854/kas-0854'
 import Kas0855 from '../pages/kas-0855/kas-0855'
+import Kas0856 from '../pages/kas-0856/kas-0856'
+import Kas0856_01 from '../pages/kas-0856_01/kas-0856_01'
 import Kas0858 from '../pages/kas-0858/kas-0858'
+import Kas0000 from '../pages/kas-0000/kas-0000'
 
 const publicRoutes = [
 	{ path: "*", component: () => <Navigate to="/" /> },
@@ -21,7 +24,7 @@ const publicRoutes = [
 const privateRoutes = [
 	{ path: "/", component: <Login /> },
 
-	{ path: "/kas-0000", component: <Shipment_0850 /> },
+	{ path: "/kas-0000", component: <Kas0000 /> },
 	{ path: "/kas-0850", component: <Shipment_0850 /> },
 	{ path: "/kas-0801", component: <Kas0801 /> },
 	{ path: "/kas-0851", component: <Kas0851 /> },
@@ -29,6 +32,8 @@ const privateRoutes = [
 	{ path: "/kas-0853", component: <Kas0853 /> },
 	{ path: "/kas-0854", component: <Kas0854 /> },
 	{ path: "/kas-0855", component: <Kas0855 /> },
+	{ path: "/kas-0856", component: <Kas0856 /> },
+	{ path: "/kas-0856_01", component: <Kas0856_01 /> },
 	{ path: "/kas-0858", component: <Kas0858 /> },
 
 	{ path: "/settings", component: <Settings /> },

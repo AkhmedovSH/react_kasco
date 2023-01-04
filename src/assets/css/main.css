@@ -203,4 +203,12 @@
 	width: calc(100% - 210px);
 }
 
+.d-flex {
+	display: flex;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
 /*# sourceMappingURL=main.css.map */

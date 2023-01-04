@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import 'bootstrap/dist/js/bootstrap.bundle';
 
 
-import './assets/css/bootstrap.css';
+// import './assets/css/bootstrap.css';
 import './assets/css/style.css';
 import './assets/css/index.css';
 // import './assets/css/app.css';
