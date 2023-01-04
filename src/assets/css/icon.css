@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+/* icon : size */
+.icon16 { display: inline-block; vertical-align: middle; width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon20 { display: inline-block; vertical-align: middle; width: 20px; height: 20px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon24 { display: inline-block; vertical-align: middle; width: 24px; height: 24px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon30 { display: inline-block; vertical-align: middle; width: 30px; height: 30px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon34 { display: inline-block; vertical-align: middle; width: 34px; height: 34px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon40 { display: inline-block; vertical-align: middle; width: 40px; height: 40px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+
+/* icon : style */
+.icon-search { background-image: url('../img/icon/icon-search.svg') }
+.icon-search-light { background-image: url('../img/icon/icon-search-light.svg') }
+.icon-mypage { background-image: url('../img/icon/icon-mypage.png') }
+.icon-like { background-image: url('../img/icon/icon-like.png') }
+.icon-logout { background-image: url('../img/icon/icon-logout.png') }
+.icon-home { background-image: url('../img/icon/icon-home.png') }
+.icon-round-arrow-right { background-image: url('../img/icon/icon-round-arrow-right.png') }
+.icon-round-arrow-right-dark { background-image: url('../img/icon/icon-round-arrow-right-dark.png') }
+/* .icon-toggle-expand { background-image: url('../img/icon/icon-toggle-expand.png') } */
+/* .icon-toggle-fold { background-image: url('../img/icon/icon-toggle-fold.png') } */
+.icon-go { background-image: url('../img/icon/icon-go.png') }
+.icon-user { background-image: url('../img/icon/icon-user.svg') }
+.icon-chat { background-image: url('../img/icon/icon-chat.svg') }
+.icon-notice { background-image: url('../img/icon/icon-notice.svg') }
+.icon-notice-yellow { background-image: url('../img/icon/icon-notice-yellow.svg') }
+
+.icon-dot { display: inline-block; width: 8px; height: 8px; background: #598dee; border-radius: 50%; vertical-align: middle; margin-left: 5px; }

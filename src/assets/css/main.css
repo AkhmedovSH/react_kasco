@@ -1,0 +1,206 @@
+/* main-content */
+.main-content {
+	box-sizing: border-box;
+}
+
+.main-content *, .main-content *::before, .main-content *::after {
+	box-sizing: border-box;
+}
+
+.main-content .container {
+	display: table;
+	width: 1560px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.main-content .container section {
+	width: 50%;
+	display: table-cell;
+	vertical-align: top;
+}
+
+.main-content .container section article .article-header {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	padding: 20px 0;
+	background-color: #002060;
+}
+
+.main-content .container section article .article-header h3 {
+	font-size: 20px;
+}
+
+.main-content .container section article .article-header .note {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	font-size: 14px;
+	transform: translateY(-50%);
+}
+
+.main-content .container section article .article-content {
+	padding-top: 10px;
+}
+
+.main-content .container section article .article-content .graph-area {
+	margin-bottom: 10px;
+}
+
+.main-content .container section article .article-content .graph-area~.graph-area {
+	margin-top: 10px;
+}
+
+.main-content .container section article .article-content .graph-list {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.main-content .container section article .article-content .graph-list>ul {
+	width: calc(100% + 10px);
+	margin: 0 -5px;
+}
+
+.main-content .container section article .article-content .graph-list>ul>li {
+	float: left;
+	width: 25%;
+	padding: 0 5px;
+}
+
+.main-content .container section article .article-content .graph-list>ul>li dl>dt {
+	display: block;
+	width: calc(100% - 20px);
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0 auto 10px;
+	border: 1px solid #d8dee5;
+}
+
+.main-content .container section article .article-content .graph-list>ul>li dl>dd {
+	display: block;
+}
+
+.main-content .container section article~article {
+	margin-top: 40px;
+}
+
+.main-content .container section:nth-of-type(2n + 1) {
+	padding-right: 15px;
+}
+
+.main-content .container section:nth-of-type(2n + 2) {
+	padding-left: 15px;
+}
+
+.table-wrap .table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.table-wrap .table thead tr th {
+	font-size: 13px;
+	color: #222;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 0;
+	border-top: 1px solid #d8dee5;
+	border-bottom: 1px solid #d8dee5;
+	border-right: 1px solid #d8dee5;
+	background-color: #f2f2f2;
+}
+
+.table-wrap .table thead tr th:first-child {
+	border-left: 1px solid #d8dee5;
+}
+
+.table-wrap .table thead tr th .color-box {
+	display: inline-block;
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	margin-top: -5px;
+}
+
+.table-wrap .table thead tr th.emphasis {
+	background-color: #dbeef4;
+}
+
+.table-wrap .table tbody tr th {
+	font-size: 13px;
+	color: #222;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 0;
+	border-bottom: 1px solid #d8dee5;
+	border-right: 1px solid #d8dee5;
+	background-color: #f2f2f2;
+}
+
+.table-wrap .table tbody tr th:first-child {
+	border-left: 1px solid #d8dee5;
+}
+
+.table-wrap .table tbody tr td {
+	font-size: 13px;
+	color: #222;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 0;
+	border-bottom: 1px solid #d8dee5;
+	border-right: 1px solid #d8dee5;
+}
+
+.table-wrap .table tbody tr td:first-child {
+	border-left: 1px solid #d8dee5;
+}
+
+.table-wrap .table tbody tr td.emphasis {
+	background-color: #dbeef4;
+}
+
+.table-wrap .table tbody tr td.total {
+	background-color: #fdeada;
+}
+
+.table-wrap .table tbody tr~tr td {
+	border-top: 1px solid #d8dee5;
+}
+
+.table-wrap .table tbody tr.total td {
+	background-color: #fdeada;
+}
+
+.double {
+	overflow: hidden;
+}
+
+.double .table-wrap {
+	float: left;
+	width: 50%;
+}
+
+.double .table-wrap:nth-of-type(1) {
+	padding-right: 5px;
+}
+
+.double .table-wrap:nth-of-type(2) {
+	padding-left: 5px;
+}
+
+.double.type-2 .table-wrap:nth-of-type(1) {
+	width: 210px;
+	padding-right: 10px;
+}
+
+.double.type-2 .table-wrap:nth-of-type(2) {
+	padding: 0;
+	width: calc(100% - 210px);
+}
+
+/*# sourceMappingURL=main.css.map */

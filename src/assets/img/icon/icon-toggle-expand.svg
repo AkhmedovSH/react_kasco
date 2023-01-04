@@ -1,0 +1,19 @@
+<svg id="Group_1_copy" data-name="Group 1 copy" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #8d9fd2;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #2856e1;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="20" cy="20" r="17.906"/>
+  <path id="Triangle_547" data-name="Triangle 547" class="cls-2" d="M25.36,21.5a2,2,0,0,0,0-2.956l-5.012-4.571A2,2,0,0,0,17,15.452v9.143a2,2,0,0,0,3.348,1.478Z" transform="translate(0 0)"/>
+</svg>

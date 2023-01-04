@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect x="-0.5" y="-0.359" width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <g>
+      <circle id="Ellipse_5_copy_2" data-name="Ellipse 5 copy 2" class="cls-1" cx="10.5" cy="10.641" r="9"/>
+      <path id="Shape_6_copy" data-name="Shape 6 copy" class="cls-2" d="M18,16l5,5" transform="translate(-0.5 -0.359)"/>
+    </g>
+  </g>
+</svg>
