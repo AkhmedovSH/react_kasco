@@ -58,7 +58,7 @@ function Header() {
 
                                 </Link>
                                 <div className="dropdown-content">
-                                    <a href="#" onClick={() => logout()}>Logout</a>
+                                    <a href="#!" onClick={() => logout()}>Logout</a>
                                 </div>
                             </div>
 

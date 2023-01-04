@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from '../../containers/header/Header1'
+import Footer from '../../containers/footer/Footer'
 
 import Background from '../../assets/img/menu-visual1.jpg'
 
@@ -52,16 +53,16 @@ function kas0852() {
               <div className="cont-area__header">
                 <div className="cont-area__header-inner">
                   <div className="tab-area">
-                    <a href="#" className="tab-area__btn"> {/* [D] 활성화 탭 버튼에 tab-area__btn--active 클래스 추가 */}
+                    <a href="#!" className="tab-area__btn"> {/* [D] 활성화 탭 버튼에 tab-area__btn--active 클래스 추가 */}
                       <span>출고요청</span>
                     </a>
-                    <a href="#" className="tab-area__btn tab-area__btn--active">
+                    <a href="#!" className="tab-area__btn tab-area__btn--active">
                       <span>배차/출고등록</span>
                     </a>
-                    <a href="#" className="tab-area__btn">
+                    <a href="#!" className="tab-area__btn">
                       <span>출고현황</span>
                     </a>
-                    <a href="#" className="tab-area__btn">
+                    <a href="#!" className="tab-area__btn">
                       <span>출고실적</span>
                     </a>
                   </div>
@@ -180,10 +181,10 @@ function kas0852() {
                   </div>
                 </article>
                 <div className="btn-area gap-x40">
-                  <a href="#" className="btn-base type-secondary size-m">
+                  <a href="#!" className="btn-base type-secondary size-m">
                     <span>초기화</span>
                   </a>
-                  <a href="#" className="btn-base type-primary size-m grid-m">
+                  <a href="#!" className="btn-base type-primary size-m grid-m">
                     <i className="icon24 icon-search-light" />
                     <span>
                       조회
@@ -203,7 +204,7 @@ function kas0852() {
                           </button>
                         </div>
                         <div className="tbl-upper__util">
-                          <a href="#" className="btn-base type-dark">
+                          <a href="#!" className="btn-base type-dark">
                             <span>다운로드</span>
                           </a>
                           <select className="selectbox type-light">
@@ -320,10 +321,10 @@ function kas0852() {
                   </div>
                 </article>
                 <div className="btn-area gap-x40">
-                  <a href="#" className="btn-base type-secondary size-m">
+                  <a href="#!" className="btn-base type-secondary size-m">
                     <span>초기화</span>
                   </a>
-                  <a href="#" className="btn-base type-primary size-m grid-m">
+                  <a href="#!" className="btn-base type-primary size-m grid-m">
                     <i className="icon24 icon-search-light" />
                     <span>
                       조회
@@ -335,7 +336,7 @@ function kas0852() {
           </div>
         </section>
         {/* // [End] main-area */}
-        <footer className="footer-area" />
+        <Footer />
       </div>
     </>
   )

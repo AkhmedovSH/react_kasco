@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from '../../containers/header/Header1'
+import Footer from '../../containers/footer/Footer'
 
 import Background from '../../assets/img/menu-visual1.jpg'
 
@@ -166,10 +167,10 @@ function kas0854() {
                   </div>
                 </article>
                 <div className="btn-area gap-x40">
-                  <a href="#" className="btn-base type-secondary size-m">
+                  <a href="#!" className="btn-base type-secondary size-m">
                     <span>최소</span>
                   </a>
-                  <a href="#" className="btn-base type-primary size-m grid-m">
+                  <a href="#!" className="btn-base type-primary size-m grid-m">
                     <i className="icon24 icon-search-light" />
                     <span>
                       등록
@@ -272,10 +273,10 @@ function kas0854() {
                   </div>
                 </article>
                 <div className="btn-area gap-x40">
-                  <a href="#" className="btn-base type-secondary size-m">
+                  <a href="#!" className="btn-base type-secondary size-m">
                     <span>초기화</span>
                   </a>
-                  <a href="#" className="btn-base type-primary size-m grid-m">
+                  <a href="#!" className="btn-base type-primary size-m grid-m">
                     <i className="icon24 icon-search-light" />
                     <span>
                       조회
@@ -287,7 +288,7 @@ function kas0854() {
           </div>
         </section>
         {/* // [End] main-area */}
-        <footer className="footer-area" />
+        <Footer />
       </div>
     </>
   )

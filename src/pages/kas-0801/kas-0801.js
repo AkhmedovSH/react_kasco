@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from '../../containers/header/Header1'
+import Footer from '../../containers/footer/Footer'
 
 import Background from '../../assets/img/menu-visual1.jpg'
 
@@ -347,7 +348,7 @@ function kas0801() {
 					</div>
 				</section>
 				{/* // [End] main-area */}
-				<footer className="footer-area" />
+				<Footer />
 			</div>
 		</>
 	)

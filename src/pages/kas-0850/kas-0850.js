@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 
 import Header from '../../containers/header/Header1'
+import Footer from '../../containers/footer/Footer'
 
 import Background from '../../assets/img/menu-visual1.jpg'
 import Check from '../../assets/images/modal/check.svg'
@@ -227,10 +228,10 @@ function Settings() {
             </div>
           </article>
           <div className="btn-area gap-x40">
-            <a href="#" className="btn-base type-secondary size-m">
+            <a href="#!" className="btn-base type-secondary size-m">
               <span>초기화</span>
             </a>
-            <a href="#" className="btn-base type-primary size-m grid-m">
+            <a href="#!" className="btn-base type-primary size-m grid-m">
               <i className="icon24 icon-search-light" />
               <span>
                 조회
@@ -283,7 +284,7 @@ function Settings() {
                     <strong className="tbl-area__tit">
                       선택 중량(KG) 993,934
                     </strong>
-                    <a href="#" className="btn-base type-dark">
+                    <a href="#!" className="btn-base type-dark">
                       <span>다운로드</span>
                     </a>
                     <select className="selectbox type-light">
@@ -304,7 +305,7 @@ function Settings() {
     </div>
   </section>
   {/* // [End] main-area */}
-  <footer className="footer-area" />
+  <Footer />
 </div>
 
 

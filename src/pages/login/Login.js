@@ -16,7 +16,7 @@ function Login() {
 <div id="wrap" className="login-wrap">
   <header className="login-header">
     <div className="login-header__logo">
-      <a href="#">
+      <a href="#!">
         <img src={Logo} alt="카스코철강" />
       </a>
     </div>
@@ -63,7 +63,7 @@ function Login() {
             </button>
           </div>
           <div className="btn-area tal gap-x20">
-            <a href="#" className="btn-icon">
+            <a href="#!" className="btn-icon">
               <i className="icon34 icon-user" />
               <span>회원가입</span>
             </a>
