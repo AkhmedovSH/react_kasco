@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Logo from '../../assets/img/logo.png'
 
 function Header1() {
+  const [showHeaderArea, setShowHeaderArea] = useState(false)
+  const [showCollapse, setShowCollapse] = useState(false)
+
   return (
     <>
-      <div className="header-area">
+      <div className={"header-area " + (showHeaderArea ? 'is-fold-notice' : '') + (showCollapse ? 'header-area--expanded' : '')} >
         <div className="header-notice type-ing1">
           <a href="#" className="header-notice__link">
             <div className="header-notice__grid">
@@ -27,13 +30,13 @@ function Header1() {
               </p>
             </div>
           </a>
-          <button type="button" className="header-notice__btn" />
+          <button type="button" className="header-notice__btn" onClick={() => setShowHeaderArea(!showHeaderArea)} />
         </div>
         <div className="header-area__inner">
           <div className="header-area__grid">
             <h1 className="header-area__logo">
               <a href="#">
-                <img src={Logo} alt="카스코철강"  style={{ backgroundColor: '#fff' }}/>
+                <img src={Logo} alt="카스코철강" style={{ backgroundColor: '#fff' }} />
               </a>
             </h1>
             <div className="header-area__util">
@@ -63,8 +66,8 @@ function Header1() {
           </div>
           <div className="header-area__grid header-area__grid--menu">
             <div className="header-area__menu">
-              <ul className="menu-list">
-                <li className="menu-list__category">
+              <ul className="menu-list" onMouseEnter={() => setShowCollapse(true)} onMouseLeave={() => setShowCollapse(false)}>
+                <li className={"menu-list__category " + (showCollapse ? 'is-hover' : '')}>
                   <a href="#" className="menu-list__btn">
                     <span>제품관리</span>
                   </a>
